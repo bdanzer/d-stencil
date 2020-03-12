@@ -1,0 +1,38 @@
+{
+  "name": "danzerpress",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/danzerpress/danzerpress.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "component": "yo stencil:component"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.2.4",
+    "@stencil/sass": "1.0.1",
+    "chokidar": "^3.2.2",
+    "classnames": "^2.2.6",
+    "danzerpress-layouts": "^1.0.0",
+    "generator-stencil": "github:AkashGutha/generator-stencil#master",
+    "hammerjs": "^2.0.8"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hamburgers": "^1.1.3"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/build/danzerpress.css">
+
+  <script type="module" src="/build/danzerpress.esm.js"></script>
+  <script nomodule src="/build/danzerpress.js"></script>
+
+</head>
+<body>
+  <danzerpress-menu is-transparent="true"></danzerpress-menu>
+  
+  <dp-slider show-buttons="true">
+    <div class="dp-slide">
+      <div class="content-wrap">
+          <div class="dp-image-wrap">
+            <img src="https://picsum.photos/id/556/1920/1080"/>
+          </div>
+          <div class="dp-content-wrap">
+            <h2>Title Text</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla lectus sapien, vitae tempor orci sollicitudin eget. Vivamus eleifend gravida lectus, sit amet auctor justo pharetra in. Praesent eleifend tempus tincidunt. Etiam vel magna maximus, sagittis felis eu, pharetra justo. Ut sit amet congue lacus. </p>
+          </div>
+      </div>
+    </div>
+    <div class="dp-slide">
+      <img src="https://picsum.photos/id/556/1920/1080"/>
+    </div>
+  </dp-slider>
+
+  <d-section>
+    <d-parallax img-src="https://source.unsplash.com/1920x1080">
+      <d-content></d-content>
+    </d-parallax>
+  </d-section>
+  <!-- <danzerpress-post-grid>
+  </danzerpress-post-grid> -->
+
+  <script src="https://use.fontawesome.com/3be2183bb5.js"></script>
+</body>
+</html>

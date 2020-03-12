@@ -1,0 +1,47 @@
+d-parallax {
+    display: block;
+
+    .d-parallax {
+        overflow: hidden;
+        display: flex;
+        position: relative;
+
+        .d-parallax-img-wrap {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+
+            &:before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                background: rgba(0, 0, 0, 0.28);
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }
+
+            img {
+                transition: 0s linear;
+            }
+        }
+        
+        .d-parallax-content {
+            position: relative;
+            z-index: 1;
+            flex: 0 0 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+

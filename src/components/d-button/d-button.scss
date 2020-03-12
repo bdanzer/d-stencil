@@ -1,0 +1,25 @@
+.d-button {
+    z-index: 7;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 600;
+    font-family: Raleway;
+    border: 2px solid #05C4EB;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 16px 35px 16px;
+    opacity: 1;
+    background: #05C4EB;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    background-color: #0070f3;
+    box-shadow: 0 4px 14px 0 rgba(0,118,255,0.39);
+    border: none;
+
+    &.d-secondary {
+        background: grey;
+    }
+}

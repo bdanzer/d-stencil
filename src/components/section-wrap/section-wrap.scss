@@ -1,0 +1,10 @@
+.d-section {
+    background: white;
+    padding: 140px 0;
+    width: 100%;
+    display: block;
+
+    &.transparent {
+        background: transparent;
+    }
+}
